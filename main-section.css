@@ -1,0 +1,74 @@
+.main-section-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #36383F;
+    grid-gap: 90px;
+}
+
+.intro-wrapper > .intro-text-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.intro-wrapper > .intro-text-wrapper > .intro-text{
+    color: #bbbbbc;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.intro-wrapper > .intro-text-wrapper > .intro2-text{
+    color:#bbbbbc;
+    font-size: 2rem;
+}
+
+.intro-wrapper > .intro-btn-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.intro-wrapper > .intro-btn-wrapper > .sign-up button{
+    width: 270px;
+    height: 70px;
+    font-size: 1.8rem;
+    background-color: #3FDE93;
+    border: none;
+    border-radius: 3px;
+}
+
+.intro-wrapper > .intro-btn-wrapper > .learn-more button{
+    width: 200px;
+    height: 70px;
+    color: aliceblue;
+    background-color: #0B0C0B;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.8rem;  
+}
+
+.main-section-wrapper > .example-wrapper > .example-img img{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-section-wrapper > .example-wrapper > .example-title{
+    color: aliceblue;
+    
+}
+
+.main-section-wrapper > .example-wrapper > .example-title h1{
+    margin-bottom: 5px;
+}
